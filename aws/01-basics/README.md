@@ -31,5 +31,7 @@ terraform destroy
 
 | File | Purpose |
 |------|---------|
-| `main.tf` | Provider and resource declarations |
+| `terraform.tf` | `terraform` block — required version and provider sources |
+| `main.tf` | `provider` block and resource declarations |
+| `variables.tf` | Input variable declarations |
 | `terraform.tfvars.example` | Example variable values (copy to `terraform.tfvars`) |

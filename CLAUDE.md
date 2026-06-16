@@ -37,6 +37,7 @@ terraform-portfolio/
 - Each example directory should have its own README explaining what it covers
 - `.tfvars` files are gitignored — use `.tfvars.example` for showing example values
 - Keep examples self-contained and runnable
+- `terraform.tf` holds the `terraform {}` block (version constraints, required providers, backend); `main.tf` holds `provider` blocks and resources — following HashiCorp tutorial conventions
 
 ## Goals
 - Each provider section builds from simple to complex
